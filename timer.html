@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="timer.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p id="ti">Timer</p>
+  <div class="container">
+    <div>
+      <span class="days" id="day"></span>
+      <div class="smalltext">Days</div>
+    </div>
+    <div>
+      <span class="hours" id="hour"></span>
+      <div class="smalltext">Hours</div>
+    </div>
+    <div>
+      <span class="mins" id="minute"></span>
+      <div class="smalltext">Minutes</div>
+    </div>
+    <div>
+      <span class="secs" id="second"></span>
+      <div class="smalltext">Seconds</div>
+    </div>
+  </div>
+  <div class="settimer">
+    <p>Enter in Format = Month Date , YYYY  HH:MM:SS</p>
+    <input type="text" id="change" onchange="funn()">
+    <p>Press Enter After your Input </p>
+  </div>
+  <p id="endtime"></p> 
+   <script src="timerscript.js"></script>
+
+</body>
+</html>
